@@ -1,0 +1,35 @@
+.app {
+  text-align: center;
+}
+
+h1 {
+  margin: 1.5em;
+  background: -webkit-linear-gradient(left, #8B008B, #eee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ul {
+  padding: 0 20%;
+}
+
+footer {
+  bottom: 0;
+  padding: 0.5em;
+  width: 100%;
+  position: fixed;
+  font-size: small;
+  background-color: white;
+}
+
+.breeds-container {
+  background-image: url("/public/catdogfunimage.jpg");
+  background-size: contain;
+}
+
+.breed-item {
+  list-style: none;
+  font-size: large;
+  padding: 1em 2em;
+  color:	#505050;
+}
